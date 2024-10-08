@@ -1,89 +1,86 @@
-/* 基本重置 */
+/* Global Styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* 網頁背景和字型 */
 body {
-    background: linear-gradient(135deg, #f0f3f4 0%, #d9e4ec 100%); /* 漸變背景 */
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    color: #2c3e50;
+    background-color: #f4f4f9;
+    color: #333;
     line-height: 1.6;
 }
 
-/* 主內容樣式 */
-.main-content {
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 30px;
-    background-color: rgba(255, 255, 255, 0.9); /* 半透明白色 */
-    border-radius: 10px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); /* 更柔和的陰影 */
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 
-/* 圖片樣式 */
-.profile-img {
+header {
     text-align: center;
     margin-bottom: 30px;
 }
 
-.profile-img img {
-    border-radius: 50%; /* 圓形圖片 */
-    border: 4px solid #3498db; /* 藍色邊框 */
+.profile-photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #007acc;
 }
 
-/* 標題樣式 */
+h1 {
+    font-size: 36px;
+    color: #007acc;
+    margin-top: 20px;
+}
+
+.tagline {
+    font-size: 18px;
+    color: #555;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
 h2 {
-    color: #2980b9; /* 深藍色 */
-    margin: 25px 0 15px;
-    border-bottom: 2px solid #3498db; /* 底部邊框 */
+    font-size: 28px;
+    color: #007acc;
+    border-bottom: 2px solid #007acc;
+    display: inline-block;
     padding-bottom: 5px;
-    font-weight: 600; /* 粗體字 */
+    margin-bottom: 15px;
 }
 
-/* 連結樣式 */
+.about p, .skills ul, .contact p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.8;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.skills li {
+    background-color: #007acc;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
 a {
-    color: #2980b9;
+    color: #007acc;
     text-decoration: none;
-    transition: color 0.3s; /* 動效過渡 */
 }
 
 a:hover {
-    color: #3498db;
     text-decoration: underline;
-}
-
-/* 列表樣式 */
-ul {
-    margin: 15px 0 25px 20px;
-}
-
-/* 聯絡資訊樣式 */
-.contact-info {
-    margin-top: 10px;
-}
-
-/* 其他內容樣式 */
-p {
-    margin-bottom: 20px;
-    line-height: 1.8; /* 增加行高 */
-}
-
-/* 按鈕樣式 */
-.button {
-    display: inline-block;
-    background-color: #3498db;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
-    transition: background-color 0.3s; /* 動效過渡 */
-}
-
-.button:hover {
-    background-color: #2980b9;
 }
