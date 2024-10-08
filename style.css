@@ -7,7 +7,7 @@
 
 /* 網頁背景和字型 */
 body {
-    background-color: #ecf0f1; /* 淺灰色背景 */
+    background: linear-gradient(135deg, #f0f3f4 0%, #d9e4ec 100%); /* 漸變背景 */
     font-family: 'Helvetica Neue', Arial, sans-serif;
     color: #2c3e50;
     line-height: 1.6;
@@ -18,9 +18,9 @@ body {
     max-width: 800px;
     margin: 40px auto;
     padding: 30px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9); /* 半透明白色 */
     border-radius: 10px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* 更柔和的陰影 */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); /* 更柔和的陰影 */
 }
 
 /* 圖片樣式 */
